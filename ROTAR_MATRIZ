@@ -1,0 +1,13 @@
+import numpy as np
+
+def rotar_matriz(matriz):
+    transpuesta=(np.array(matriz)).transpose()
+    print(transpuesta)
+    nueva=[]
+    for i in range(len(transpuesta)):
+        nueva.append(transpuesta[i])
+    print(nueva)
+  
+    
+rotar_matriz([[1,2,3,4],[5,6,7,8]])
+rotar_matriz([[1,2,3],[4,5,6],[7,8,9]])
